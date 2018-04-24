@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.header-scroll {
+    max-height: 600px;
+    margin-bottom: 20px;
+}
+
+div.slide {
+    position: relative;
+}
+
+h1 {
+    font-size: 2.7em;
+}
+
+div.slide-img {
+    background-image: url(//unsplash.it/1920/600)
+}
+
+div.slide > h4 {
+    position: absolute;
+}
+
+.carousel-caption {
+    text-align: left;
+    top: 50px;
+    bottom: auto;
+}
+
+.card {
+    margin: 20px;
+}
+
+hr {
+    display:inline-block;
+    width: 55%;
+    height: 1px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+h2 {
+    margin-left: 20px;
+}
