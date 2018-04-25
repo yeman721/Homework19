@@ -34,8 +34,6 @@ div.slide > h4 {
 }
 
 hr {
-    display:inline-block;
-    width: 55%;
     height: 1px;
     position: relative;
     top: 20px;
