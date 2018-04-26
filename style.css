@@ -12,7 +12,7 @@ div.slide {
 }
 
 h1 {
-    font-size: 2.7em;
+    font-size: 48px;
 }
 
 div.slide-img {
@@ -40,10 +40,99 @@ hr {
     left: 20px;
 }
 
+.jumbotron {
+    margin-bottom: 0px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
 h2 {
     margin-left: 20px;
 }
 
 nav {
     position:sticky;
+}
+
+.secretary {
+    background-image: url("../images/secretary.png");
+
+}
+
+.role {
+    background-image: url("../images/role.png");
+
+}
+
+.education {
+    background-image: url("../images/education.png");
+
+}
+
+.structure {
+    background-image: url("../images/structure.png");
+
+}
+
+.history {
+    background-image: url("../images/history.png");
+
+}
+
+
+.display-4, .lead {
+    color:white;
+}
+
+.side {
+    height: calc(100vh - 56px);
+}
+
+.side-nav {
+    list-style: none;   
+}
+
+.side-nav > li {
+    padding: 15px;
+    color: #335D8D;
+    font-weight: bold;
+
+}
+
+ul {
+    padding-left: 0px;
+}
+
+.side-nav > li.active {
+    color: white;
+    background-color: #335D8D;
+}
+
+.side-nav > li:active {
+    color: white;
+    background-color: #335D8D;
+}
+
+.side-nav > li:focus {
+    color: white;
+    background-color: #335D8D;
+}
+.side-nav > li:hover {
+    border-left: 2px solid rgb(184, 184, 184);
+    transition: .5s;
+}
+
+.navbar {
+    background-color: #517194;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: #517194;
+    background-color: white;
 }
